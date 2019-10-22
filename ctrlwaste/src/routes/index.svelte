@@ -43,6 +43,7 @@
 
 {#each article as section }
   <h1>{section.title}</h1>
+  <p>{section.body}</p>
   <img src={section.imgOne} alt="">
   <img src={section.imgTwo} alt="">
 {/each}

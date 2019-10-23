@@ -18,7 +18,7 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Tools</title>
 </svelte:head>
 
 <h1>Open-Source Software</h1>

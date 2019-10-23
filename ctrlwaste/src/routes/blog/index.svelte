@@ -18,17 +18,23 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Tools</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1>Open-Source Software</h1>
+<ul>
+  <li><a rel='prefetch' target="_blank" href='https://github.com/MPH-Bali/green-village-project'>Green Village Project</a></li>
+  <li><a rel='prefetch' target="_blank" href='https://github.com/mjday/trashbounty'>Trash Bounty</a></li>
+</ul>
 
+<!-- <h1>Stories</h1>
 <ul>
 	{#each posts as post}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
+		we're using the non-standard `rel=prefetch` attribute to
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
+				waiting for the 'click' event
 		<li><a rel='prefetch' href='blog/{post.slug}'>{post.title}</a></li>
 	{/each}
 </ul>
+ -->

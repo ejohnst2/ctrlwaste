@@ -1,56 +1,27 @@
 <script>
-  import article from './_article'
+  console.log('wow')
 </script>
+
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
+  .title-card {
+    text-align: center;
+  }
+  .container {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-card img {
+    height: 75px;
+  }
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
 </style>
 
-<svelte:head>
-	<title>Saper project template</title>
-</svelte:head>
 
-<h1>Inconvenient Truths of living</h1>
-
-{#each article as section }
-  <h1>{section.title}</h1>
-  <p>{section.body}</p>
-  <img src={section.imgOne} alt="">
-  <img src={section.imgTwo} alt="">
-{/each}
-
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<div class="container">
+  <div class="title-card">
+    <img src='/coconut.png' alt="">
+    <h4>ctrl waste</h4>
+  </div>
+</div>

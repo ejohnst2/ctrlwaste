@@ -2,6 +2,6 @@
 	<title>About</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<h1>About Ctrl Waste</h1>
 
-<p>This is the 'about' page. There's not much here.</p>
+<p>You will soon know all you need to know. For now, in the wise words of Childish Gambino, stay woke.</p>

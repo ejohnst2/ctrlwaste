@@ -23,8 +23,8 @@
 
 <h1>Open-Source Software</h1>
 <ul>
-  <li><a rel='prefetch' href='#'>Green Village Project</a></li>
-  <li><a rel='prefetch' href='#'>Trash Bounty</a></li>
+  <li><a rel='prefetch' target="_blank" href='https://github.com/MPH-Bali/green-village-project'>Green Village Project</a></li>
+  <li><a rel='prefetch' target="_blank" href='https://github.com/mjday/trashbounty'>Trash Bounty</a></li>
 </ul>
 
 <!-- <h1>Stories</h1>
